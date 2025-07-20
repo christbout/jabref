@@ -55,7 +55,7 @@
 
         <CheckBox fx:id="fontOverride" text="%Override default font settings"
                   GridPane.rowIndex="4" GridPane.columnIndex="0"/>
-        <HBox alignment="CENTER_LEFT" spacing="4.0" disable="${!fontOverride.selected}"
+        <HBox alignment="CENTER_LEFT" spacing="4.0" disable="${fontOverride.selected}"
               GridPane.rowIndex="4" GridPane.columnIndex="1">
             <Label text="%Size"/>
             <Spinner fx:id="fontSize" styleClass="fontsizeSpinner" editable="true"/>
@@ -67,7 +67,7 @@
     <Label styleClass="sectionHeader" text="%User interface"/>
     <CheckBox fx:id="openLastStartup" text="%Open last edited libraries on startup"/>
     <CheckBox fx:id="showAdvancedHints"
-              text="%Show advanced hints (i.e. helpful tooltips, suggestions and explanation)"/>
+              text="Show advanced hints (e.g., helpful tooltips, suggestions and explanation)"/>
     <CheckBox fx:id="inspectionWarningDuplicate"
               text="%Warn about unresolved duplicates when closing inspection window"/>
 
