@@ -79,6 +79,7 @@ Note that this project **does not** adhere to [Semantic Versioning](https://semv
 - Enhanced field selection logic in the Merge Entries dialog when fetching from DOI to prefer valid years and entry types. [#12549](https://github.com/JabRef/jabref/issues/12549)
 - Corrected abbreviation from 'i.e.' to 'e.g.' in advanced hints preference. #HSFDPMUW
 - Completed incomplete sentence about document viewer in CHANGELOG.md. #HSFDPMUW
+- Corrected grammatical error in documentation: Removed superfluous "the" in "Add new entries" description. #HSFDPMUW
 
 ### Removed
 
