@@ -80,6 +80,7 @@ Note that this project **does not** adhere to [Semantic Versioning](https://semv
 - Corrected abbreviation from 'i.e.' to 'e.g.' in advanced hints preference. #HSFDPMUW
 - Completed incomplete sentence about document viewer in CHANGELOG.md. #HSFDPMUW
 - Corrected grammatical error in documentation: Removed superfluous "the" in "Add new entries" description. #HSFDPMUW
+- Corrected spelling of "IEEEXplore" to "IEEE Xplore" in online bibliographic database list. #HSFDPMUW
 
 ### Removed
 
