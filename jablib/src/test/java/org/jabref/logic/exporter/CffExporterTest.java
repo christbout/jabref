@@ -289,7 +289,7 @@ class CffExporterTest {
                 "  - biblatex",
                 "license: MIT",
                 "repository-code: https://github.com/jabref/jabref/",
-                "abstract: JabRef is an open-source, cross-platform citation and reference management tool.",
+                "abstract: JabRef is an open-source, cross-platform, citation and reference management tool.",
                 "url: https://www.jabref.org",
                 "preferred-citation:",
                 "  title: 'JabRef: BibTeX-based literature management software'",

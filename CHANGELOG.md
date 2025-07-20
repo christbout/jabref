@@ -50,7 +50,7 @@ Note that this project **does not** adhere to [Semantic Versioning](https://semv
 - We renamed the "Body Text" CSL bibliography header format name to "Text body" as per internal LibreOffice conventions. [#13074](https://github.com/JabRef/jabref/pull/13074)
 - We moved the "Modify bibliography title" option from the CSL styles tab of the Select Style dialog to the OpenOffice/LibreOffice side panel and renamed it to "Bibliography properties". [#13074](https://github.com/JabRef/jabref/pull/13074)
 - We changed path output display to show the relative path with respect to library path in context of library properties. [#13031](https://github.com/JabRef/jabref/issues/13031)
-- We improved JabRef's internal document viewer. It now allows text section, searching and highlighting of search terms and page rotation [#13193](https://github.com/JabRef/jabref/pull/13193).
+- We improved JabRef's internal document viewer. It now allows text selection, searching and highlighting of search terms and page rotation [#13193](https://github.com/JabRef/jabref/pull/13193).
 - When importing a PDF, there is no empty entry column shown in the multi merge dialog. [#13132](https://github.com/JabRef/jabref/issues/13132)
 - We added a progress dialog to the "Check consistency" action and progress output to the corresponding cli command. [#12487](https://github.com/JabRef/jabref/issues/12487)
 - We made the `check-consistency` command of the toolkit always return an exit code; 0 means no issues found, a non-zero exit code reflects any issues, which allows CI to fail in these cases [#13328](https://github.com/JabRef/jabref/issues/13328).
@@ -77,6 +77,9 @@ Note that this project **does not** adhere to [Semantic Versioning](https://semv
 - When creating a library, if you drag a PDF file containing only a single column, the dialog will now automatically close. [#13262](https://github.com/JabRef/jabref/issues/13262)
 - We fixed an issue where the tab showing the fulltext search results would appear blank after switching library. [#13241](https://github.com/JabRef/jabref/issues/13241)
 - Enhanced field selection logic in the Merge Entries dialog when fetching from DOI to prefer valid years and entry types. [#12549](https://github.com/JabRef/jabref/issues/12549)
+- Corrected abbreviation from 'i.e.' to 'e.g.' in advanced hints preference. #HSFDPMUW
+- Completed incomplete sentence about document viewer in CHANGELOG.md. #HSFDPMUW
+- Corrected grammatical error in documentation: Removed superfluous "the" in "Add new entries" description. #HSFDPMUW
 
 ### Removed
 
