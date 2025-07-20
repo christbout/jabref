@@ -80,6 +80,8 @@ Note that this project **does not** adhere to [Semantic Versioning](https://semv
 - Corrected abbreviation from 'i.e.' to 'e.g.' in advanced hints preference. #HSFDPMUW
 - Completed incomplete sentence about document viewer in CHANGELOG.md. #HSFDPMUW
 - Corrected grammatical error in documentation: Removed superfluous "the" in "Add new entries" description. #HSFDPMUW
+- Added colon to "Enforce single JabRef instance" setting description for clarity. #HSFDPMUW
+- Standardized capitalization of "biblatex" to "BibLatex" and "bibtex" to "BibTex" for consistency in documentation/UI. #HSFDPMUW
 
 ### Removed
 

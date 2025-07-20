@@ -33,7 +33,7 @@ public enum HelpFile {
     FETCHER_DOI("collect/add-entry-using-an-id"),
     FETCHER_GOOGLE_SCHOLAR("collect/import-using-online-bibliographic-database#googlescholar"),
     FETCHER_GVK("collect/import-using-online-bibliographic-database#gvk"),
-    FETCHER_IEEEXPLORE("collect/import-using-online-bibliographic-database#ieeexplore"),
+    FETCHER_IEEE_XPLORE("collect/import-using-online-bibliographic-database#ieeexplore"),
     FETCHER_INSPIRE("collect/import-using-online-bibliographic-database#inspire"),
     FETCHER_ISBN("collect/add-entry-using-an-id"),
     FETCHER_ISIDORE("collect/import-using-online-bibliographic-database#isidore"),
